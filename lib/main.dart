@@ -14,6 +14,9 @@ class MyApp extends StatelessWidget {
       title: "Salman shop",
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        accentColor: Colors.red,
+        fontFamily: 'Lato',
+
       ),
       home: Productsoverviewscreen(),
     );
