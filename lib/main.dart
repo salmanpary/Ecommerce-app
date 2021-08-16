@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:salmanshop/screens/product_overviewscreen.dart';
-
+import 'package:salmanshop/screens/product_detail_screen.dart';
 void main() {
   runApp(MyApp());
 }
@@ -19,6 +19,9 @@ class MyApp extends StatelessWidget {
 
       ),
       home: Productsoverviewscreen(),
+      routes: {
+        Productdetailscreen.routename:(ctx)=>Productdetailscreen(),
+      },
     );
   }
 }
