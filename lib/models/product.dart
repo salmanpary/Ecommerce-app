@@ -1,4 +1,6 @@
 
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 class Product{
 final String id;
 final String description;
@@ -8,7 +10,7 @@ final double price;
 bool isfavorite;
 Product(
 {
-  this.id,this.title,this.price,this.imageurl,this.description,this.isfavorite
+  @required this.id,@required this.title,@required this.price,@required this.imageurl,@required this.description,this.isfavorite
 }
     );
 }
